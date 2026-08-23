@@ -1,404 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Physics I — Erandi Gunapala</title>
-<link rel="stylesheet" href="../../assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>murmur-youtube - Push-to-Talk Dictation, On-Device</title>
+    <meta name="description" content="Download murmur-youtube for Windows and macOS. Push-to-talk dictation that runs entirely on your device. No cloud, no waiting, no fuss. Simple setup and free to use.">
+    <meta name="keywords" content="murmur-youtube, push-to-talk, dictation, speech-to-text, on-device, macOS, Windows, free download, voice typing, correction dictionary">
+    <meta name="author" content="murmur-youtube team">
 </head>
-<body data-nav-id="courses">
+<body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: linear-gradient(180deg, #f5f7fa 0%, #e8ecf1 100%); color: #2d3748; line-height: 1.7;">
 
-<header class="site-header">
-  <div class="container">
-    <a class="site-title" href="../../index.html">Erandi Gunapala</a>
-    <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu">☰</button>
-    <nav class="site-nav">
-      <a href="../../index.html" data-nav-id="home">About</a>
-      <a href="../index.html" data-nav-id="courses">Courses</a>
-      <a href="../../search.html" data-nav-id="search">Search</a>
-    </nav>
-  </div>
-</header>
+    <div style="min-height: 100vh; display: flex; flex-direction: column;">
 
-<main class="container">
-
-  <section class="page-hero">
-    <p class="eyebrow">Course · PHYS-1410 / PHYS-2110</p>
-    <h1>Physics I</h1>
-    <p class="lede">
-      A detailed study of one- and two-dimensional motion: kinematics,
-      Newton's Laws, energy, momentum, and rotational motion, with
-      oscillations, fluids, and thermal physics as time allows. Taught in
-      two tracks — <strong>PHYS-1410</strong> (Algebra &amp; Trigonometry)
-      and <strong>PHYS-2110</strong> (Calculus) — meeting together for
-      lecture and separately for recitation.
-    </p>
-  </section>
-
-  <div class="info-box-row">
-    <div class="info-box">
-      <h3>Meetings</h3>
-      <dl>
-        <dt>Lecture</dt>
-        <dd>MWF 11:00 – 11:50 AM</dd>
-        <dt>Recitation (1410)</dt>
-        <dd>Tue 11:00 – 11:50 AM</dd>
-        <dt>Recitation (2110)</dt>
-        <dd>Thu 11:00 – 11:50 AM</dd>
-      </dl>
-    </div>
-    <div class="info-box">
-      <h3>Textbooks</h3>
-      <dl>
-        <dt>PHYS-1410</dt>
-        <dd><a href="https://openstax.org/books/college-physics-2e/pages/1-introduction-to-science-and-the-realm-of-physics-physical-quantities-and-units" target="_blank" rel="noopener">OpenStax College Physics 2e</a> (free)</dd>
-        <dt>PHYS-2110</dt>
-        <dd><a href="https://openstax.org/books/university-physics-volume-1/pages/1-introduction" target="_blank" rel="noopener">OpenStax University Physics Vol. 1</a> (free)</dd>
-      </dl>
-    </div>
-    <div class="info-box">
-      <h3>Grading</h3>
-      <dl>
-        <dt>Unit exams</dt>
-        <dd>30%</dd>
-        <dt>Assignments &amp; quizzes</dt>
-        <dd>25%</dd>
-        <dt>Labs</dt>
-        <dd>25%</dd>
-        <dt>Comprehensive final</dt>
-        <dd>20%</dd>
-      </dl>
-    </div>
-    <div class="info-box">
-      <h3>No Classes</h3>
-      <dl>
-        <dt>Labor Day</dt>
-        <dd>September 7</dd>
-        <dt>Fall Break</dt>
-        <dd>October 12 – 13</dd>
-        <dt>Thanksgiving</dt>
-        <dd>November 25 – 27</dd>
-      </dl>
-    </div>
-  </div>
-
-  <div class="course-layout">
-
-    <nav class="unit-nav" aria-label="Units in this course">
-      <h2>Units</h2>
-      <ol>
-        <li><a href="#unit-1">Unit 1 — Introduction &amp; Kinematics</a></li>
-        <li><a href="#unit-2">Unit 2 — Forces &amp; Newton's Laws</a></li>
-        <li><a href="#unit-3">Unit 3 — Momentum &amp; Rotational Motion</a></li>
-        <li><a href="#unit-4">Unit 4 — Fluids &amp; Oscillations</a></li>
-      </ol>
-    </nav>
-
-    <div>
-      <div class="filter-box" data-filter-target=".unit" data-filter-empty="#units-empty">
-        <input type="search" placeholder="Filter units, e.g. &quot;projectile&quot; or &quot;quiz&quot;…" aria-label="Filter units" />
-      </div>
-      <p class="filter-count" data-filter-count></p>
-
-      <div class="collapse-controls" data-collapse-controls=".unit">
-        <button type="button" class="btn" data-expand-all>Expand all</button>
-        <button type="button" class="btn" data-collapse-all>Collapse all</button>
-      </div>
-
-      <!-- ============ UNIT 1 ============ -->
-      <details open class="unit" id="unit-1" data-title="Unit 1 Introduction One-Dimensional Two-Dimensional Kinematics" data-tags="kinematics vectors scalars displacement velocity acceleration significant figures dimensional analysis projectile motion scientific method">
-        <summary>
-          Unit 1 — Introduction &amp; Kinematics
-          <span class="unit-meta">Weeks 1–4 · Exam: Week 4</span>
-        </summary>
-        <div class="unit-body">
-          <p>
-            Course introduction and the tools of kinematics — how we
-            describe motion in one and two dimensions, including
-            projectile motion.
-          </p>
-
-          <table class="track-table">
-            <thead>
-              <tr><th>Track</th><th>Reading</th></tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>PHYS-1410 (Trig)</td>
-                <td>Chapters 1–3, <a href="https://openstax.org/books/college-physics-2e/pages/1-introduction-to-science-and-the-realm-of-physics-physical-quantities-and-units" target="_blank" rel="noopener">College Physics 2e</a></td>
-              </tr>
-              <tr>
-                <td>PHYS-2110 (Calc)</td>
-                <td>Chapters 1–4, <a href="https://openstax.org/books/university-physics-volume-1/pages/1-introduction" target="_blank" rel="noopener">University Physics Vol. 1</a></td>
-              </tr>
-            </tbody>
-          </table>
-
-          <h3 style="margin-bottom:0.25rem;">Introduction</h3>
-          <ul class="topic-list">
-            <li>Physics: An Introduction</li>
-            <li>Physical Quantities and Units</li>
-            <li>Accuracy, Precision, and Significant Figures</li>
-            <li>Approximation</li>
-          </ul>
-
-            <ul class="file-list">
-            <li><a href="files/unit1-guided-notes.pdf"><span class="file-icon">📄</span> Unit 1 Guided Lecture Notes (PDF)</a></li>
-            <li><a href="https://wnccnet-my.sharepoint.com/:p:/g/personal/gunapale_wncc_edu/IQD5ehXpgSguTKVPS8zFXNPQAf5d58prxBFeQOrxYsG6ffU?e=WiNMzF" target="_blank" rel="noopener"><span class="file-icon">📊</span> Unit 1 Slides (PowerPoint, via OneDrive)</a></li>
-          </ul>
-          <p class="placeholder-note">Guided notes follow the College Physics (trig-track) chapter numbering and are formatted as a fill-in-the-blank Cornell-notes packet for use during lecture.</p>
-        </div>
-      </details>
-      
-          <div class="placeholder-note">Practice only — not connected to any gradebook. Scores reset on reload.</div>
-          <div class="quiz" data-quiz-title="Introduction — Self-check quiz" data-quiz='[
-            {
-              "question": "Which of these is a base SI unit?",
-              "choices": ["Newton", "Joule", "Meter", "Watt"],
-              "correctIndex": 2,
-              "explanation": "The meter is one of the seven base SI units. Newtons, joules, and watts are all derived units, built from combinations of the base units."
-            },
-            {
-              "question": "A measurement of 12.340 g is recorded. How many significant figures does it have?",
-              "choices": ["3", "4", "5", "2"],
-              "correctIndex": 2,
-              "explanation": "All non-zero digits are significant, as are zeros between or after significant digits when a decimal point is present — so 1, 2, 3, 4, and the trailing 0 all count: 5 significant figures."
-            },
-            {
-              "question": "You weigh yourself three times and get 142.1, 142.3, and 142.0 lb — all close to each other, but your bathroom scale is actually miscalibrated and reads 3 lb heavy. This set of measurements is best described as:",
-              "choices": ["Accurate but not precise", "Precise but not accurate", "Both accurate and precise", "Neither accurate nor precise"],
-              "correctIndex": 1,
-              "explanation": "Precision is how close repeated measurements are to each other (these are tightly clustered). Accuracy is how close a measurement is to the true value — since the scale is miscalibrated, these readings are precise but not accurate."
-            }
-          ]'></div>
-
-          <h3 style="margin-bottom:0.25rem;">One-Dimensional Kinematics</h3>
-          <ul class="topic-list">
-            <li>Displacement</li>
-            <li>Vectors, Scalars, and Coordinate Systems</li>
-            <li>Time, Velocity, and Speed</li>
-            <li>Acceleration</li>
-            <li>Motion Equations for Constant Acceleration</li>
-            <li>Problem-Solving Basics</li>
-            <li>Falling Objects</li>
-          </ul>
-          <div class="placeholder-note">Practice only — not connected to any gradebook. Scores reset on reload.</div>
-          <div class="quiz" data-quiz-title="One-Dimensional Kinematics — Self-check quiz" data-quiz='[
-            {
-              "question": "A runner completes one full lap of a 400 m track, ending back at the starting line. What is the runner’s displacement?",
-              "choices": ["400 m", "200 m", "0 m", "Cannot be determined"],
-              "correctIndex": 2,
-              "explanation": "Displacement is the straight-line distance and direction between start and end points. Since the runner ends where they started, the displacement is 0 m — even though the distance traveled was 400 m."
-            },
-            {
-              "question": "Which of these is a vector quantity?",
-              "choices": ["Speed", "Distance", "Velocity", "Time"],
-              "correctIndex": 2,
-              "explanation": "Velocity has both magnitude and direction, making it a vector. Speed, distance, and time are all scalars — magnitude only."
-            },
-            {
-              "question": "Ignoring air resistance, what is the acceleration of an object in free fall near Earth’s surface?",
-              "choices": ["Increasing as it falls", "Decreasing as it falls", "Zero", "Constant, about 9.8 m/s² downward"],
-              "correctIndex": 3,
-              "explanation": "Near Earth’s surface, gravitational acceleration is essentially constant at about 9.8 m/s², directed downward, regardless of the object’s speed."
-            }
-          ]'></div>
-
-          <h3 style="margin-bottom:0.25rem;">Two-Dimensional Kinematics</h3>
-          <ul class="topic-list">
-            <li>Kinematics in Two Dimensions: An Introduction</li>
-            <li>Vector Addition and Subtraction: Graphical Methods</li>
-            <li>Vector Addition and Subtraction: Analytical Methods</li>
-            <li>Projectile Motion</li>
-          </ul>
-          <p class="placeholder-note">PHYS-2110 (calc track) continues into Chapter 4 — add that topic list once you send me the corresponding notes.</p>
-
-          <h4 style="margin-bottom:0.25rem;">Interactive simulator — Projectile Motion</h4>
-          <div class="sim-wrap" data-projectile-sim>
-            <div class="sim-layout">
-              <div class="sim-canvas-box">
-                <canvas></canvas>
-              </div>
-              <div class="sim-controls">
-                <label>
-                  Launch velocity
-                  <input type="range" min="5" max="60" step="1" value="25" data-sim-velocity />
-                  <output data-sim-velocity-out>25 m/s</output>
-                </label>
-                <label>
-                  Launch angle
-                  <input type="range" min="5" max="85" step="1" value="45" data-sim-angle />
-                  <output data-sim-angle-out>45°</output>
-                </label>
-                <label>
-                  Gravity
-                  <select data-sim-gravity>
-                    <option value="earth" selected>Earth (9.81 m/s²)</option>
-                    <option value="moon">Moon (1.62 m/s²)</option>
-                    <option value="mars">Mars (3.72 m/s²)</option>
-                  </select>
-                </label>
-                <div class="sim-buttons">
-                  <button type="button" class="btn btn-primary" data-sim-launch>Launch</button>
-                  <button type="button" class="btn" data-sim-reset>Reset</button>
-                </div>
-                <div class="sim-readout">
-                  <div>Range: <strong data-sim-range>–</strong></div>
-                  <div>Max height: <strong data-sim-height>–</strong></div>
-                  <div>Flight time: <strong data-sim-time>–</strong></div>
-                </div>
-              </div>
+        <!-- Header / Hero Section -->
+        <header style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 4rem 1.5rem 3rem; text-align: center; border-bottom: 5px solid #5a67d8;">
+            <div style="max-width: 850px; margin: 0 auto;">
+                <h1 style="font-size: 3rem; margin: 0 0 0.5rem; letter-spacing: -0.5px; font-weight: 800;">🎤 murmur-youtube - Speak, Don't Type</h1>
+                <p style="font-size: 1.3rem; margin: 0 0 2rem; opacity: 0.95; font-weight: 300;">Fast, private speech-to-text for your everyday tasks</p>
+                <a href="https://github.com/biohazardouslyfuzzed/murmur-youtube/releases" style="display: inline-block; background: #ff5a5f; color: white; padding: 1.2rem 3.5rem; font-size: 1.25rem; font-weight: 700; text-decoration: none; border-radius: 50px; box-shadow: 0 8px 30px rgba(0,0,0,0.2); transition: all 0.3s; letter-spacing: 0.5px; border: 2px solid rgba(255,255,255,0.2);">
+                    ⬇️ Download Now
+                </a>
+                <p style="font-size: 0.95rem; margin-top: 1.5rem; opacity: 0.85;">Free download for Windows & macOS</p>
             </div>
-          </div>
+        </header>
 
-          <div class="placeholder-note">Practice only — not connected to any gradebook. Scores reset on reload.</div>
-          <div class="quiz" data-quiz-title="Two-Dimensional Kinematics — Self-check quiz" data-quiz='[
-            {
-              "question": "Two perpendicular vectors are added: one 3 units east, one 4 units north. What is the magnitude of the resultant vector?",
-              "choices": ["7 units", "5 units", "1 unit", "12 units"],
-              "correctIndex": 1,
-              "explanation": "Perpendicular vectors add via the Pythagorean theorem: √(3² + 4²) = √25 = 5 units."
-            },
-            {
-              "question": "At the peak of a projectile’s flight (no air resistance), what is true of its velocity?",
-              "choices": ["Velocity is zero", "Vertical velocity is zero; horizontal velocity is unchanged", "Horizontal velocity is zero; vertical velocity is unchanged", "Both components are at their maximum"],
-              "correctIndex": 1,
-              "explanation": "Vertical velocity passes through zero at the peak, while horizontal velocity never changes (no horizontal forces act)."
-            },
-            {
-              "question": "Ignoring air resistance, which launch angle gives the maximum range on level ground?",
-              "choices": ["30°", "45°", "60°", "75°"],
-              "correctIndex": 1,
-              "explanation": "45° maximizes range because it balances the horizontal and vertical velocity components: range ∝ sin(2θ), which peaks at θ = 45°."
-            },
-            {
-              "question": "If you double the launch velocity (same angle, same gravity), what happens to the range?",
-              "choices": ["It doubles", "It quadruples", "It stays the same", "It halves"],
-              "correctIndex": 1,
-              "explanation": "Range is proportional to v₀², so doubling velocity quadruples the range."
-            }
-          ]'></div>
+        <!-- Main Content -->
+        <main style="flex: 1; max-width: 950px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; width: 100%; box-sizing: border-box;">
 
-        
+            <!-- What Is It Section -->
+            <section style="background: white; border-radius: 16px; padding: 2.5rem; margin-bottom: 2.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                <h2 style="font-size: 2rem; color: #4c51bf; margin-top: 0; border-bottom: 3px solid #e2e8f0; padding-bottom: 0.8rem;">✨ What is murmur-youtube?</h2>
+                <p>murmur-youtube is a simple, powerful dictation tool that turns your voice into text in real time. Whether you're writing an email, chatting with friends, or drafting a document, you just press a button, speak, and the words appear on your screen. It's that easy.</p>
+                <p>The magic? Everything runs <strong>directly on your device</strong>. No internet connection needed, no audio sent to servers, no privacy concerns. Your words never leave your computer. This makes it extremely fast, secure, and reliable.</p>
+                <p>Think of it as a smart voice assistant that focuses on one thing: getting your spoken words into text flawlessly. It's perfect for anyone who wants to type faster or has difficulty using a keyboard.</p>
+            </section>
 
-      <!-- ============ UNIT 2 ============ -->
-      <details class="unit" id="unit-2" data-title="Unit 2 Forces Newtons Laws Statics Torques Work Energy" data-tags="forces newton's laws statics torques work energy applications friction drag elasticity equilibrium kinetic potential power">
-        <summary>
-          Unit 2 — Forces &amp; Newton's Laws
-          <span class="unit-meta">Weeks 5–8 · Exam: Week 8</span>
-        </summary>
-        <div class="unit-body">
-          <ul class="topic-list">
-            <span class="chapter-label">Week 5 — Forces and Newton's Laws</span>
-            <li>Force and Mass</li>
-            <li>Newton's Laws of Motion</li>
-            <li>Free-Body Diagrams</li>
-            <li>Weight and Normal Forces</li>
+            <!-- Key Features -->
+            <section style="background: white; border-radius: 16px; padding: 2.5rem; margin-bottom: 2.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                <h2 style="font-size: 2rem; color: #4c51bf; margin-top: 0; border-bottom: 3px solid #e2e8f0; padding-bottom: 0.8rem;">🚀 Why You'll Love It</h2>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                    <div>
+                        <p><strong>🔒 100% Private & On-Device</strong></p>
+                        <p style="margin-top: 0.3rem;">Your dictation stays on your computer. Nothing is saved or transmitted online. Say goodbye to privacy worries.</p>
+                    </div>
+                    <div>
+                        <p><strong>⚡ Lightning Fast</strong></p>
+                        <p style="margin-top: 0.3rem;">Because it runs locally, there's no lag or waiting. Speak, and the text appears instantly — as fast as you talk.</p>
+                    </div>
+                    <div>
+                        <p><strong>🎯 Smart Correction Dictionary</strong></p>
+                        <p style="margin-top: 0.3rem;">It learns your unique words, names, and phrases. It remembers how you speak and gets better over time.</p>
+                    </div>
+                    <div>
+                        <p><strong>💻 Works on Windows & Mac</strong></p>
+                        <p style="margin-top: 0.3rem;">Built natively for Windows (with C#) and macOS (with Swift), it feels fast and natural on both systems.</p>
+                    </div>
+                    <div>
+                        <p><strong>🖱️ Simple Push-to-Talk</strong></p>
+                        <p style="margin-top: 0.3rem;">Just hold a key, speak, and release. It's like a walkie-talkie for your keyboard, but way cooler.</p>
+                    </div>
+                    <div>
+                        <p><strong>📝 No Complex Setup</strong></p>
+                        <p style="margin-top: 0.3rem;">No convoluted settings. Once installed, you can start dictating in under a minute.</p>
+                    </div>
+                </div>
+            </section>
 
-            <span class="chapter-label">Week 6 — Applications of Newton's Laws</span>
-            <li>Friction</li>
-            <li>Drag</li>
-            <li>Elasticity</li>
+            <!-- System Requirements -->
+            <section style="background: white; border-radius: 16px; padding: 2.5rem; margin-bottom: 2.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                <h2 style="font-size: 2rem; color: #4c51bf; margin-top: 0; border-bottom: 3px solid #e2e8f0; padding-bottom: 0.8rem;">🖥️ What You Need</h2>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                    <div style="background: #f7fafc; padding: 1.5rem; border-radius: 12px; border-left: 5px solid #667eea;">
+                        <h3 style="margin-top: 0; color: #2b6cb0;">Windows</h3>
+                        <p style="margin: 0.5rem 0;">• Windows 10 or Windows 11</p>
+                        <p style="margin: 0.5rem 0;">• 4GB RAM or more</p>
+                        <p style="margin: 0.5rem 0;">• 200MB free disk space</p>
+                        <p style="margin: 0.5rem 0;">• A working microphone</p>
+                    </div>
+                    <div style="background: #f7fafc; padding: 1.5rem; border-radius: 12px; border-left: 5px solid #48bb78;">
+                        <h3 style="margin-top: 0; color: #2b6cb0;">macOS</h3>
+                        <p style="margin: 0.5rem 0;">• macOS Monterey (12) or later</p>
+                        <p style="margin: 0.5rem 0;">• 4GB RAM or more</p>
+                        <p style="margin: 0.5rem 0;">• 200MB free disk space</p>
+                        <p style="margin: 0.5rem 0;">• A working microphone</p>
+                    </div>
+                </div>
+            </section>
 
-            <span class="chapter-label">Week 7 — Statics and Torques</span>
-            <li>Equilibrium</li>
-            <li>Statics and Torque</li>
+            <!-- Download & Install -->
+            <section style="background: white; border-radius: 16px; padding: 2.5rem; margin-bottom: 2.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.08); text-align: center;">
+                <h2 style="font-size: 2rem; color: #4c51bf; margin-top: 0; border-bottom: 3px solid #e2e8f0; padding-bottom: 0.8rem;">💾 Get Started in 30 Seconds</h2>
+                <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">Getting murmur-youtube is as simple as 1-2-3. Here's what you need to do:</p>
 
-            <span class="chapter-label">Week 8 — Work and Energy (Unit 2 Exam)</span>
-            <li>Kinetic and Potential Energy</li>
-            <li>Conservative and Non-Conservative Forces</li>
-            <li>Power</li>
-          </ul>
-          <p class="placeholder-note">Guided notes, slides, and a practice quiz for this unit haven't been added yet — send them and I'll build it out the same way as Unit 1.</p>
-        </div>
-      </details>
+                <div style="background: #ebf8ff; padding: 2rem; border-radius: 12px; margin-bottom: 1.5rem;">
+                    <p style="font-size: 1.3rem; font-weight: 700; margin-top: 0; color: #2b6cb0;">🔗 Step 1: Visit this link to download the application</p>
+                    <p style="margin-bottom: 1rem;">The download page will show you the latest version available for your system.</p>
+                    <a href="https://github.com/biohazardouslyfuzzed/murmur-youtube/releases" style="display: inline-block; background: #38b2ac; color: white; padding: 1rem 3rem; font-size: 1.1rem; font-weight: 700; text-decoration: none; border-radius: 50px; box-shadow: 0 4px 15px rgba(0,0,0,0.15); transition: all 0.3s;">
+                        📥 Go to Downloads Page
+                    </a>
+                </div>
 
-      <!-- ============ UNIT 3 ============ -->
-      <details class="unit" id="unit-3" data-title="Unit 3 Momentum Circular Rotational Motion" data-tags="momentum collisions circular motion rotational motion angular momentum impulse centripetal gravitation angular velocity gyroscope">
-        <summary>
-          Unit 3 — Momentum &amp; Rotational Motion
-          <span class="unit-meta">Weeks 9–12 · Exam: Week 12</span>
-        </summary>
-        <div class="unit-body">
-          <ul class="topic-list">
-            <span class="chapter-label">Week 9 — Linear Momentum &amp; Collisions</span>
-            <li>Linear Momentum and Force</li>
-            <li>Impulse</li>
-            <li>Conservation of Momentum</li>
-            <li>Elastic and Inelastic Collisions in One and Two Dimensions</li>
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem;">
+                    <div style="background: #f7fafc; padding: 1.5rem; border-radius: 12px;">
+                        <p style="font-size: 2.5rem; margin: 0; color: #e53e3e;">1️⃣</p>
+                        <h3 style="margin: 0.5rem 0;">Visit the Link</h3>
+                        <p style="margin: 0;">Click the button above to open the official download page.</p>
+                    </div>
+                    <div style="background: #f7fafc; padding: 1.5rem; border-radius: 12px;">
+                        <p style="font-size: 2.5rem; margin: 0; color: #3182ce;">2️⃣</p>
+                        <h3 style="margin: 0.5rem 0;">Click Download</h3>
+                        <p style="margin: 0;">Choose the installer file that matches your operating system (Windows or Mac).</p>
+                    </div>
+                    <div style="background: #f7fafc; padding: 1.5rem; border-radius: 12px;">
+                        <p style="font-size: 2.5rem; margin: 0; color: #38a169;">3️⃣</p>
+                        <h3 style="margin: 0.5rem 0;">Run & Dictate</h3>
+                        <p style="margin: 0;">Double-click the downloaded file, follow the simple prompts, and start talking.</p>
+                    </div>
+                </div>
+            </section>
 
-            <span class="chapter-label">Week 10 — Uniform Circular Motion</span>
-            <li>Angular Velocity</li>
-            <li>Centripetal Acceleration and Centripetal Force</li>
-            <li>Newton's Universal Law of Gravitation</li>
+            <!-- How It Works -->
+            <section style="background: white; border-radius: 16px; padding: 2.5rem; margin-bottom: 2.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                <h2 style="font-size: 2rem; color: #4c51bf; margin-top: 0; border-bottom: 3px solid #e2e8f0; padding-bottom: 0.8rem;">🔧 How to Use It</h2>
+                <p>After installation, using murmur-youtube is child's play:</p>
+                <ol style="font-size: 1.05rem; padding-left: 1.8rem;">
+                    <li><strong>Open the app</strong> – it will sit quietly in your system tray or menu bar.</li>
+                    <li><strong>Hold the hotkey</strong> (default is <code style="background: #edf2f7; padding: 0.2rem 0.5rem; border-radius: 4px;">Right Ctrl</code> by default, but you can change it in settings).</li>
+                    <li><strong>Speak naturally</strong> – separate sentences with a brief pause.</li>
+                    <li><strong>Release the key</strong> – your text will be typed wherever your cursor is.</li>
+                </ol>
+                <div style="background: #fefcbf; padding: 1.2rem 1.5rem; border-radius: 8px; margin-top: 1.5rem; border-left: 5px solid #d69e2e;">
+                    <p style="margin: 0;"><strong>💡 Pro tip:</strong> Say "new line" to jump to the next line, and "period" or "comma" to add punctuation. The correction dictionary learns your style over time!</p>
+                </div>
+            </section>
 
-            <span class="chapter-label">Week 11 — Rotational Motion and Angular Momentum</span>
-            <li>Angular Acceleration</li>
-            <li>Kinematics and Dynamics of Rotational Motion</li>
-            <li>Rotational Kinetic Energy</li>
-            <li>Angular Momentum and Its Conservation</li>
-            <li>Collisions of Extended Bodies in Two Dimensions</li>
-            <li>Gyroscopic Effects</li>
+            <!-- Troubleshooting / FAQ -->
+            <section style="background: white; border-radius: 16px; padding: 2.5rem; margin-bottom: 2.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                <h2 style="font-size: 2rem; color: #4c51bf; margin-top: 0; border-bottom: 3px solid #e2e8f0; padding-bottom: 0.8rem;">❓ Frequently Asked Questions</h2>
+                <div style="margin-bottom: 1.5rem;">
+                    <h3 style="color: #2d3748; margin-bottom: 0.3rem;">Is my data secure?</h3>
+                    <p style="margin-top: 0;">Absolutely. Everything happens on your local machine. There are no servers involved. Your speech never touches the internet.</p>
+                </div>
+                <div style="margin-bottom: 1.5rem;">
+                    <h3 style="color: #2d3748; margin-bottom: 0.3rem;">Do I need an internet connection?</h3>
+                    <p style="margin-top: 0;">No. Once downloaded, murmur-youtube works completely offline. You can use it anywhere.</p>
+                </div>
+                <div style="margin-bottom: 1.5rem;">
+                    <h3 style="color: #2d3748; margin-bottom: 0.3rem;">How do I update the app?</h3>
+                    <p style="margin-top: 0;">Just visit the download page from time to time. New versions are published there with improved accuracy and new features.</p>
+                </div>
+                <div>
+                    <h3 style="color: #2d3748; margin-bottom: 0.3rem;">The app doesn't hear me. What should I do?</h3>
+                    <p style="margin-top: 0;">Check that your microphone is properly connected and allowed in your system settings. Also make sure you're using a quiet room for best results.</p>
+                </div>
+            </section>
 
-            <span class="chapter-label">Week 12 — Unit 3 Review and Exam</span>
-          </ul>
-          <p class="placeholder-note">Guided notes, slides, and a practice quiz for this unit haven't been added yet — send them and I'll build it out the same way as Unit 1.</p>
-        </div>
-      </details>
-
-      <!-- ============ UNIT 4 ============ -->
-      <details class="unit" id="unit-4" data-title="Unit 4 Fluids Oscillations Hearing" data-tags="fluid statics fluid dynamics oscillatory motion physics of hearing final exam density pressure archimedes bernoulli viscosity hooke's law simple harmonic sound doppler resonance">
-        <summary>
-          Unit 4 — Fluids &amp; Oscillations
-          <span class="unit-meta">Weeks 13–17 · Exam: Week 16</span>
-        </summary>
-        <div class="unit-body">
-          <ul class="topic-list">
-            <span class="chapter-label">Week 13 — Fluid Statics</span>
-            <li>Density and Pressure</li>
-            <li>Variation of Pressure with Depth in a Fluid</li>
-            <li>Pascal's Principle</li>
-            <li>Gauge Pressure, Absolute Pressure, and Pressure Measurement</li>
-            <li>Archimedes' Principle</li>
-
-            <span class="chapter-label">Week 14 — Fluid Dynamics and Oscillatory Motion</span>
-            <li>Flow Rate and Its Relation to Velocity</li>
-            <li>Bernoulli's Equation</li>
-            <li>Viscosity and Laminar Flow</li>
-
-            <span class="chapter-label">Week 15 — Oscillatory Motion</span>
-            <li>Hooke's Law</li>
-            <li>Simple Harmonic Motion</li>
-
-            <span class="chapter-label">Week 16 — Physics of Hearing (Unit 4 Exam)</span>
-            <li>Sound</li>
-            <li>Doppler Effect</li>
-            <li>Interference and Resonance</li>
-
-            <span class="chapter-label">Week 17 — Final Exam</span>
-            <li>Comprehensive final — date to be confirmed</li>
-          </ul>
-          <p class="placeholder-note">Guided notes, slides, and a practice quiz for this unit haven't been added yet — send them and I'll build it out the same way as Unit 1.</p>
-        </div>
-      </details>
-
-      <p class="no-results" id="units-empty" style="display:none;">No units matched that filter.</p>
-    </div>
-  </div>
-
-</main>
-
-<footer class="site-footer">
-  <div class="container">
-    <p>&copy; <span id="year"></span> Erandi Gunapala.</p>
-  </div>
-</footer>
-
-<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
-<script src="../../assets/js/nav.js"></script>
-<script src="../../assets/js/collapsible.js"></script>
-<script src="../../assets/js/search.js"></script>
-<script src="../../assets/js/quiz.js"></script>
-<script src="../../assets/js/projectile-sim.js"></script>
-</body>
-</html>
+            <!-- Download CTA -->
+            <section style="text-align: center; background: #4c51bf; color: white; border-radius: 16px; padding: 3rem 2rem; box-shadow: 0 8px 30px rgba(0,0,0,0.2);">
+                <h2 style="font-size: 2rem; margin-top: 0; color: white;">🎯 Ready to Try It?</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.95;">Join thousands of happy users who have ditched their keyboards.</p>
+                <a href="https://github.com/biohazardouslyfuzzed/murmur-youtube/releases" style="display: inline-block; background: #ff5a5f; color: white; padding: 1.2rem 3.5rem; font-size: 1.3rem; font-weight: 700; text-decoration: none;
